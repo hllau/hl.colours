@@ -7,7 +7,7 @@ with open('README.rst') as f:
 
 setup(
     name="hl.colours",
-    version="0.1.0",
+    version="0.1.1",
     packages=find_packages(),
     description="A simple way to add colours to terminal output in Python.",
     long_description=long_description,
