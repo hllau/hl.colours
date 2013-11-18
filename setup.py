@@ -1,10 +1,16 @@
 from setuptools import setup, find_packages
 
+
+with open('README.rst') as f:
+    long_description = f.read()
+
+
 setup(
     name="hl.colours",
     version="0.1.0",
     packages=find_packages(),
     description="A simple way to add colours to terminal output in Python.",
+    long_description=long_description,
     author="Hing-Lung Lau",
     author_email="lung220@gmail.com",
     url="http://github.com/hllau/hl.colours",
